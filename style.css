@@ -47,19 +47,18 @@ a:link {
     padding-top:10%;
   }
 
-  #searchbar {
-    
-  }
+
   #sbar {
     min-width:25%;
     max-width:800px;
     border-radius: 1rem;
     height:35px;
+    position: relative;
   }
 
   @media (max-width:900px) {
     #sbar {
-      width:70%;
+      width:75%;
     }
   }
 
@@ -75,10 +74,21 @@ a:link {
     font-size: 14px;
 }
 
+
  
 #noodlesearch:hover,
 #lucky:hover {
-  border-style: solid;
+     border: 1px solid #c6c6c6;
+     margin:-1px;
+  }
+ 
+
+#sbar {
+  position: relative;
+  background-image:url('https://svgshare.com/i/NvU.svg');
+  background-repeat: no-repeat;
+  background-position: 0.5rem;
+  background-size:4.5%;
+  text-indent: 35px;
+
 }
-
-
